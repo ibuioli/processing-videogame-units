@@ -1,6 +1,6 @@
 class Principal {
   PImage barra = loadImage("barra.png");          //Imagen de Barra
-  PImage degradado = loadImage("degradado.png");  //Imagen de degradado, podría procesarse en tiempo real con un ciclo for
+  PImage degradado = loadImage("degradado.jpg");  //Imagen de degradado, podría procesarse en tiempo real con un ciclo for
   PImage mascara = loadImage("mascara.png");      //Máscara de recorte, no visible
 
   float vida;
@@ -25,4 +25,3 @@ class Principal {
     degradado.width = int(vida);
   }
 }
-
